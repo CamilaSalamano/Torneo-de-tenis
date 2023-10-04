@@ -1,0 +1,56 @@
+h2 span {
+    font-family:"Courier New",ui-monospace;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(218, 139, 74);
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+    text-transform: uppercase;
+    
+}
+ 
+.noticia {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.img-noticia {
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family:"Courier New",ui-monospace;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.titulo-contenido {
+    width: 70%;
+    margin: auto;
+}
+p {
+    margin: 5px 5px 5px 0px;
+    padding-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.footer-link {
+    font-family:"Courier New",ui-monospace;
+    font-weight: bold;
+    font-size: 16px;
+    color: #1a1a1a;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px 20px 0px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}

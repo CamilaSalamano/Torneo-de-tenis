@@ -1,0 +1,76 @@
+ h1 span {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Courier New",ui-monospace;
+    font-weight: bold;
+    color:rgb(218, 139, 74);
+    padding: 5px;   
+}
+
+.formulario {
+    padding: 10px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.formulario div {
+    margin-bottom: 15px;
+}
+.formulario, .fotoLogo {
+    display: inline-block;
+    vertical-align: middle
+}
+.bloqueFormularioFoto {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.ingresar {
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1.1px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+iframe {
+    margin-bottom: 50px;
+}
+
+.imagenesredes {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.imagenesredes img {
+    width: 40px;
+    padding-bottom: 20px;
+}
+.imagenesredes a {
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagenesredes .text-link--style-1 {
+    text-decoration: none;
+    text-transform: initial;
+}
+.text-link--style-1 span{
+    padding-bottom: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+footer .footer-link-container {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+}

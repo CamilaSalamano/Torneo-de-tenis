@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="OBJECTS" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 154.79 150">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        font-family: AvenirNext-Regular, 'Avenir Next';
+        font-size: 12px;
+      }
+
+      .cls-2 {
+        fill: #d6cb00;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #da8b4a;
+      }
+
+      .cls-4 {
+        fill: #f1eae0;
+      }
+    </style>
+  </defs>
+  <circle class="cls-3" cx="79.79" cy="75" r="75"/>
+  <text class="cls-1" transform="translate(64.68 130.77) rotate(-161.39)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-1" transform="translate(57.84 128.57) rotate(-152.64)"><tspan x="0" y="0">O</tspan></text>
+  <text class="cls-1" transform="translate(48.24 123.41) rotate(-143.37)"><tspan x="0" y="0">R</tspan></text>
+  <text class="cls-1" transform="translate(41.91 118.73) rotate(-134.61)"><tspan x="0" y="0">N</tspan></text>
+  <text class="cls-1" transform="translate(35.08 111.61) rotate(-125.81)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-1" transform="translate(30.44 105.3) rotate(-116.45)"><tspan x="0" y="0">O</tspan></text>
+  <text class="cls-1" transform="translate(25.77 95.48) rotate(-107.35)"><tspan x="0" y="0">S</tspan></text>
+  <text class="cls-1" transform="translate(23.64 88.22) rotate(-101.79)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(22.78 84.51) rotate(-95.75)"><tspan x="0" y="0">d</tspan></text>
+  <text class="cls-1" transform="translate(22.02 76.2) rotate(-87.82)"><tspan x="0" y="0">e</tspan></text>
+  <text class="cls-1" transform="translate(22.45 68.54) rotate(-82.06)"><tspan x="0" y="0"> </tspan></text>
+  <text class="cls-1" transform="translate(22.87 65.04) rotate(-76.64)"><tspan x="0" y="0">T</tspan></text>
+  <text class="cls-1" transform="translate(24.66 57.68) rotate(-68.98)"><tspan x="0" y="0">E</tspan></text>
+  <text class="cls-1" transform="translate(27.44 50.37) rotate(-60.25)"><tspan x="0" y="0">N</tspan></text>
+  <text class="cls-1" transform="translate(32.56 41.87) rotate(-53.43)"><tspan x="0" y="0">I</tspan></text>
+  <text class="cls-1" transform="translate(34.86 38.69) rotate(-47.75)"><tspan x="0" y="0">S</tspan></text>
+  <g>
+    <path class="cls-2" d="m100.63,120.66c1.33-.61,2.64-1.27,3.94-2,17.02-9.66,26.22-27.76,25.36-46.06-2.84.9-5.61,2.1-8.27,3.6-16.09,9.13-23.99,27.19-21.03,44.45Z"/>
+    <path class="cls-2" d="m29.61,76.24c3.1-.91,6.15-2.17,9.08-3.84,15.78-8.96,23.68-26.51,21.18-43.48-1.64.71-3.26,1.51-4.85,2.41-16.66,9.45-25.84,27-25.41,44.9Z"/>
+    <path class="cls-2" d="m114.32,63.27c4.05-2.3,8.31-4.07,12.68-5.32-.95-2.63-2.12-5.21-3.55-7.72-10.2-17.97-29.82-27.24-49.14-25.13,4.14,23.36-6.5,47.88-28.28,60.24-4.45,2.52-9.1,4.39-13.83,5.63,1.01,3,2.31,5.95,3.93,8.81,10.38,18.28,30.51,27.55,50.14,25-4.77-23.74,5.86-48.92,28.04-61.51Z"/>
+  </g>
+  <path class="cls-4" d="m46.03,85.34c21.78-12.36,32.43-36.88,28.28-60.24-4.89.53-9.75,1.8-14.45,3.83,2.5,16.96-5.4,34.52-21.18,43.48-2.93,1.66-5.98,2.93-9.08,3.84.12,4.94.97,9.9,2.6,14.73,4.73-1.24,9.38-3.1,13.83-5.63Z"/>
+  <path class="cls-4" d="m100.63,120.66c-2.96-17.26,4.94-35.32,21.03-44.45,2.65-1.51,5.43-2.7,8.27-3.6-.23-4.93-1.19-9.86-2.93-14.66-4.37,1.25-8.62,3.02-12.68,5.32-22.18,12.59-32.81,37.77-28.04,61.51,4.87-.63,9.7-1.99,14.35-4.12Z"/>
+</svg>
