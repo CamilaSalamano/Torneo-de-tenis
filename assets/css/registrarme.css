@@ -9,12 +9,18 @@ h1 span {
     padding: 5px;
 }
 .formulario {
-    padding: 10px 20px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    font-family:"Courier New",ui-monospace;
     font-weight: bold;
     font-size: 16px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
 }
+.formulario .ingresar:hover {
+    background-color: rgb(214, 203, 0);
+    
+}
+ 
 .formulario, .fotoPerfil {
     display: inline-block;
     vertical-align: middle;
@@ -31,15 +37,6 @@ margin-bottom: 5px;
 
 .formulario .recordarme {
 display: inline-block;
-}
-
-.ingresar {
-    text-transform: uppercase;
-    cursor: pointer;
-    letter-spacing: 1.1px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    padding: 5px;
 }
 
 .columna1 {
@@ -63,4 +60,13 @@ display: inline-block;
 .pantallageneral {
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 576px) {
+	main {
+		height: calc(100vh - 128px);
+	}
+	.columna1 {
+		height: 100%;
+	}
 }
