@@ -8,7 +8,7 @@ h2 span {
     text-transform: uppercase;
     
 }
- 
+
 .noticia {
     display: flex;
     justify-content: space-between;
@@ -21,6 +21,7 @@ h2 span {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 h1, h5 {
     font-family:"Courier New",ui-monospace;
     font-weight: bold;
@@ -32,11 +33,13 @@ h1, h5 {
     width: 70%;
     margin: auto;
 }
+
 p {
     margin: 5px 5px 5px 0px;
     padding-top: 5px;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
 .footer-link {
     font-family:"Courier New",ui-monospace;
     font-weight: bold;
@@ -45,7 +48,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px 20px 0px;
-
+    
 }
 
 footer {
@@ -74,11 +77,11 @@ footer {
         background: #000;
         min-height: 320px;
     }
-
+    
     .carousel-caption h5 {
         font-size: 20px;
     }
-
+    
     .carousel-caption p {
         line-height: 1.5;
         padding: 20px 0;

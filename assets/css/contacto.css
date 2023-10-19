@@ -20,15 +20,18 @@
 .formulario div {
     margin-bottom: 15px;
 }
+
 .formulario, .fotoLogo {
     display: inline-block;
     vertical-align: middle
 }
+
 .bloqueFormularioFoto {
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .ingresar {
     text-transform: uppercase;
     cursor: pointer;
@@ -66,6 +69,7 @@ iframe {
     text-decoration: none;
     text-transform: initial;
 }
+
 .text-link--style-1 span{
     padding-bottom: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
@@ -97,6 +101,7 @@ footer .footer-link-container {
     padding: 50px;
     background: #fafafa;
 }
+
 .btn {
     text-transform: uppercase;
     font-size: 14px;
@@ -109,26 +114,26 @@ footer .footer-link-container {
     cursor: pointer;
     letter-spacing: 1.1px;
     margin: auto;
- }
+}
 
- .btn:hover {
+.btn:hover {
     background-color: rgb(214, 203, 0);
- }
+}
 
- @media (max-width: 576px) {
+@media (max-width: 576px) {
     .contenedor {
         display: flex;
         flex-direction: column;
         height: initial;
     }
-
+    
     .imagenesredes {
         justify-content: flex-start;
         gap: 40px;
         padding-bottom: 30px;
     }
-
+    
     .imagenesredes a {
         min-width: initial;
     }
- }
+}
