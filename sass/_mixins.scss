@@ -40,6 +40,10 @@
   width: 100%;
   max-width: 1024px;
   margin: auto;
+
+  @include desktop-1920 {
+    max-width: 1280px;
+  }
 }
 
 // MEDIA QUERIES
@@ -51,6 +55,12 @@
 
 @mixin tablet {
   @media only screen and (max-width: calc($tablet * 1px)) {
+    @content;
+  }
+}
+
+@mixin desktop-1920 {
+  @media only screen and (max-width: calc($desktop-1920 * 1px)) {
     @content;
   }
 }
