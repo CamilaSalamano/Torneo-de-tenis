@@ -15,3 +15,9 @@ footer {
         text-transform: uppercase;
     }
 }
+
+@include only-mobile {
+    .footer-link {
+		font-size: 14px;
+	}
+}

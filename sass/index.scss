@@ -22,7 +22,7 @@
     }
 }
 
-@include only-mobile {
+@include tablet {
     .carousel-inner {
         .carousel-caption {
             display: block;
