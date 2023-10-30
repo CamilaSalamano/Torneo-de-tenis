@@ -1,7 +1,7 @@
-@import 'variables';
-@import 'reset';
-@import 'mixins';
-@import 'transitions';
+@import '_variables';
+@import '_reset';
+@import '_mixins';
+@import '_transitions';
 
 html, body, main {
 	min-height: 100vh;
@@ -49,6 +49,11 @@ h1, h2, h3, h4, h5 {
 	text-transform: uppercase;
 	text-decoration-color: $color-black;
 	text-underline-offset: 3px;
+
+	&:hover {
+		color: $color-primary-light;
+		text-decoration: underline;
+	}
 }
 
 .main-title {
