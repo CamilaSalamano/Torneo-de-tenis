@@ -9,9 +9,9 @@
 
     .imagenesredes {
         @include flex-evenly;
+        @include font-size(normal);
         font-family: $font-family-secondary;
         font-weight: bold;
-        font-size: 16px;
         padding-top: 20px;
     
         img {
@@ -32,9 +32,9 @@
             }
 
             span {
+                @include font-size(small);
                 padding-bottom: 20px;
                 font-family: $font-family-secondary;
-                font-size: 14px;
             }
         }
     }

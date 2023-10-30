@@ -15,6 +15,15 @@ $color-gray-light: #fafafa;
 // FONTS
 $font-family-primary: "Courier New", ui-monospace;
 $font-family-secondary: Georgia, 'Times New Roman', Times, serif;
+$font-sizes: (
+    xsmall: 12px,
+    small: 14px,
+    normal: 16px,
+    subtitle: 20px,
+    title-2: 22px,
+    title-1: 24px,
+);
+
 
 // HEIGHTS
 $header-height: 72px;
