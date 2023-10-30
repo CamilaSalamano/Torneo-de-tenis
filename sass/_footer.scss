@@ -1,0 +1,17 @@
+footer {
+    @include flex-evenly;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.15);
+    font-family: $font-family-secondary;
+    font-weight: bold;
+    font-size: 16px;
+    
+    .footer-link {
+        @include flex-between;
+        font-family: $font-family-primary;
+        font-weight: bold;
+        font-size: 16px;
+        color: $color-black;
+        padding: 20px 0px 20px 0px;
+        text-transform: uppercase;
+    }
+}

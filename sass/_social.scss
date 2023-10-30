@@ -1,0 +1,53 @@
+.social {
+    text-align: center;
+    background-image: linear-gradient(to bottom, $color-white, #fffcfe, #fff8fa, #fff5f1, #fff4e8);
+    padding: 30px 0;
+
+    .main-title {
+        padding-bottom: 20px;
+    }
+
+    .imagenesredes {
+        @include flex-evenly;
+        font-family: $font-family-secondary;
+        font-weight: bold;
+        font-size: 16px;
+        padding-top: 20px;
+    
+        img {
+            width: 40px;
+        }
+    
+        .text-link {
+            @include flex-column;
+
+            min-width: 150px;
+            text-decoration: none;
+            text-transform: initial;
+            gap: 20px;
+            align-items: center;
+            
+            &:hover span {
+                color: $color-primary-light;
+            }
+
+            span {
+                padding-bottom: 20px;
+                font-family: $font-family-secondary;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+@include only-mobile {
+    .imagenesredes {
+        justify-content: center;
+        gap: 40px;
+        padding-bottom: 30px;
+    }
+    
+    .imagenesredes a {
+        min-width: initial;
+    }
+}

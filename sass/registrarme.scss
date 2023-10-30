@@ -1,0 +1,65 @@
+@import 'layout';
+
+.contenedor {
+    align-items: center;
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    position: relative;
+    
+    img {
+        filter: brightness(0.65);    
+        height: 100%;
+        object-fit: cover; 
+        position: absolute;
+        width: 100%;
+    }
+    
+    .formulario {
+        background-color: $color-white;
+        border-radius: 4px;
+        font-family: $font-family-secondary;
+        font-size: 16px;
+        font-weight: bold;
+        letter-spacing: 1.1px;
+        min-width: 400px;
+        padding: 10px 30px 40px;
+        position: relative;
+        z-index: 1;
+        
+        div {
+            margin-bottom: 15px;
+        }
+        
+        .ingresar {
+            &:hover {
+                background-color: $color-primary-light;
+            }
+        }
+        
+        .recordarme-group {
+            @include flex-center;
+            gap: 10px;
+
+            label {
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@include only-mobile {
+    main {
+        height: $full-screen-height;
+    }
+    
+    .contenedor {
+        height: 100%;
+
+        .formulario {
+            min-width: initial;
+            width: 90%;
+            margin: auto;
+        }
+    }
+}

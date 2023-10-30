@@ -1,0 +1,21 @@
+// SCREENS
+$mobile: 576;
+
+// COLORS
+$color-primary: rgb(218, 139, 74);
+$color-primary-light: rgb(229, 159, 102);
+$color-black: #1a1a1a;
+$color-text: #424242;
+$color-white: #fff;
+$color-gray-border: #bdbdbd;
+$color-gray-light: #fafafa;
+
+// FONTS
+$font-family-primary: "Courier New", ui-monospace;
+$font-family-secondary: Georgia, 'Times New Roman', Times, serif;
+
+// HEIGHTS
+$header-height: 72px;
+$footer-height: 56px;
+$full-screen-height: calc(100vh - ($header-height + $footer-height));
+
