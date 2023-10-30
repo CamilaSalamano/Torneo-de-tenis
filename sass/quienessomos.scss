@@ -3,9 +3,8 @@
 
 .presentacion {
     @include flex-column;
+    @include desktop-centered-content;
     margin-bottom: 60px;
-    margin: auto;
-    width: 70%;
     
     p {
         color: $color-text;

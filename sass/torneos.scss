@@ -1,8 +1,7 @@
 @import '_layout';
  
 main {
-    max-width: 1024px;
-    margin: auto;
+    @include desktop-centered-content;
 
     .torneos {
         @include flex-center-horiz;
@@ -60,7 +59,7 @@ main {
     }
 }
 
-@include only-mobile {
+@include tablet {
     .torneos {
         @include flex-column;
         padding-top: 0;

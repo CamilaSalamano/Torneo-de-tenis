@@ -35,6 +35,13 @@
   justify-content: center;
 }
 
+// CONTAINERS
+@mixin desktop-centered-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+}
+
 // MEDIA QUERIES
 @mixin only-mobile {
   @media only screen and (max-width: calc($mobile * 1px)) {
